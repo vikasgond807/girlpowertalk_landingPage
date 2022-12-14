@@ -1,4 +1,10 @@
+:root {
+    --primary-color: #112D45;
+    --secondary-color: #3F72AF;
+    --bgColor:#a1b8d3;
+    
+    --bgDarkColor:#282A3A;
 
-:root{
-    --primary-color:rgb(81, 81, 192);
+    --secondary-white: #DBE2EF;
+    --primary-white: #F9F7F7;
 }

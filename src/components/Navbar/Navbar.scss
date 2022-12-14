@@ -6,8 +6,8 @@
     position: fixed;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter:blur(4px);
-    background: rgba(60, 64, 189, 0.371);
-    border: 1px solid rgba(255,255,255,0.18);
+    background:var(--secondary-white);
+    border: 1px solid rgba(255,255,255,0.4);
 }
 
 .navbar-logo{
@@ -34,6 +34,7 @@
     li {
         margin: 0 1rem;
         cursor: pointer;
+        color: var(--secondary-color);
 
         flex-direction: column;
         text-decoration: none;
@@ -84,8 +85,8 @@
         align-items: flex-end;
         flex-direction: column;
 
-        background-color: var(--primary-color);
-        box-shadow: 0 0 20 rgba(255,255,255,0.18);
+        background-color: var(--secondary-white);
+        box-shadow: 0 0 20 rgba(255,255,255,0.65);
 
         svg{
             width: 40px;
@@ -110,9 +111,9 @@
                     margin: 1rem;
             
                     a {
-                        color: var(--gray-color);
+                        color: var(--secondary-color);
                         text-decoration: none;
-                        font-size: 1rem;
+                        font-size: 1.25rem;
                         text-transform: uppercase;
                         font-weight: 500;
             
