@@ -1,16 +1,16 @@
-import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import Footer from './container/Footer/Footer';
-import Carousel from './components/Carousel/Carousel';
-
+import "./App.css";
+import MyCarousel from "./components/Carousel/MyCarousel";
+import MyGallery from "./components/Gallery/MyGallery";
+import MyFooter from "./components/MyFooter/MyFooter";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
-
-      {/* <Navbar/> */}
-      {/* <Carousel /> */}
-      <Footer/>
+      <Navbar />
+      <MyGallery />
+      <MyCarousel />
+      <MyFooter />
     </div>
   );
 }
