@@ -1,10 +1,12 @@
 :root {
-    --primary-color: #112D45;
-    --secondary-color: #3F72AF;
-    --bgColor:#a1b8d3;
-    
-    --bgDarkColor:#282A3A;
 
-    --secondary-white: #DBE2EF;
-    --primary-white: #F9F7F7;
+    --primary-white:#EFFFFD;
+
+
+    --primary-blue:#B8FFF9;
+    --secondary-blue:#85F4FF;
+
+    --tertiary-blue:#42C2FF;
+
+    
 }
