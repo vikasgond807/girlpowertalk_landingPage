@@ -19,7 +19,7 @@ function MyCarousel() {
         />
         <Carousel.Caption>
           <h3 style={{color:'red'}}>WeAreGirlPowerTalk</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <p style={{ fontSize: '26px' }}>A woman with a voice is, by definition, a strong woman.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -31,8 +31,8 @@ function MyCarousel() {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>WeAreGirlPowerTalk</h3>
+          <p style={{fontSize:'26px'}}>Women are always saying, 'We can do anything that men can do.' But men should be saying, 'We can do anything that women can do.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -44,9 +44,9 @@ function MyCarousel() {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          <h3>WeAreGirlPowerTalk </h3>
+          <p style={{ fontSize: '26px' }}>
+            “Women belong in all places where decisions are made … It shouldn’t be that women are the exception.”
           </p>
         </Carousel.Caption>
       </Carousel.Item>
