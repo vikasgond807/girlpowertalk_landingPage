@@ -3,7 +3,7 @@ import {motion} from 'framer-motion';
 import './Navbar.scss';
 import {HiX,HiMenu} from 'react-icons/hi'
 
-import logo from '../../assests/images/logo.png'
+import logo from '../../assests/logo.png'
 
 const Navbar = () => {
 

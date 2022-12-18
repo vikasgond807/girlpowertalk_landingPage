@@ -16,24 +16,25 @@ export default function MyFooter() {
         </div>
 
         <div>
-          <a href="" className="me-4 text-reset">
+          <a href="https://www.facebook.com/girlpowertalk/" target=" " className="me-4 text-reset">
             <MDBIcon fab icon="facebook-f" />
           </a>
-          <a href="" className="me-4 text-reset">
+          <a href="https://twitter.com/girlpowertalk" target=" " className="me-4 text-reset">
             <MDBIcon fab icon="twitter" />
           </a>
-          <a href="" className="me-4 text-reset">
-            <MDBIcon fab icon="google" />
+          <a href="https://youtu.be/JR9rMZYPkR0" target=" " className="me-4 text-reset">
+            <MDBIcon fab icon="youtube" />
           </a>
-          <a href="" className="me-4 text-reset">
+          <a href="https://www.instagram.com/girlpowertalk/" target=" " className="me-4 text-reset">
             <MDBIcon fab icon="instagram" />
           </a>
-          <a href="" className="me-4 text-reset">
+          <a href='https://www.linkedin.com/company/girl-power-talk' target=" " className="me-4 text-reset">
             <MDBIcon fab icon="linkedin" />
           </a>
-          <a href="" className="me-4 text-reset">
-            <MDBIcon fab icon="github" />
+          <a href="https://www.tiktok.com/@girlpowertalk?lang=en" target=" " className="me-4 text-reset">
+            <MDBIcon fab icon="tiktok" />
           </a>
+          
         </div>
       </section>
 
@@ -43,59 +44,64 @@ export default function MyFooter() {
             <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">
                 <MDBIcon icon="gem" className="me-3" />
-                Company name
+                <span style={{ color: 'red' }}>Girl Power Talk</span>
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
+                “One girl empowers another. Let’s change lives together: 
+                one girl, one woman and one human being at a time.”
               </p>
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Products</h6>
+              <h6 className="text-uppercase fw-bold mb-4">Quick Links</h6>
               <p>
                 <a href="#!" className="text-reset">
-                  Angular
+                  About Us
                 </a>
               </p>
               <p>
                 <a href="#!" className="text-reset">
-                  React
+                  Our Leaders 
                 </a>
               </p>
               <p>
                 <a href="#!" className="text-reset">
-                  Vue
+                  Values 
                 </a>
               </p>
               <p>
                 <a href="#!" className="text-reset">
-                  Laravel
+                  Events
+                </a>
+              </p>
+
+              <p>
+                <a href="#!" className="text-reset">
+                  Merch
                 </a>
               </p>
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
+              <h6 className="text-uppercase fw-bold mb-4">Company </h6>
               <p>
                 <a href="#!" className="text-reset">
-                  Pricing
+                  Careers
                 </a>
               </p>
               <p>
                 <a href="#!" className="text-reset">
-                  Settings
+                  Submit your Story
                 </a>
               </p>
               <p>
                 <a href="#!" className="text-reset">
-                  Orders
+                  Get Directions
                 </a>
               </p>
               <p>
                 <a href="#!" className="text-reset">
-                  Help
+                  Privacy Policy
                 </a>
               </p>
             </MDBCol>
@@ -108,14 +114,12 @@ export default function MyFooter() {
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                info@example.com
+                info@<span style={{color:'red'}}>girlpowertalk.com</span>
               </p>
               <p>
                 <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
               </p>
-              <p>
-                <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
-              </p>
+              
             </MDBCol>
           </MDBRow>
         </MDBContainer>
@@ -127,7 +131,7 @@ export default function MyFooter() {
       >
         © 2021 Copyright:
         <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
-          MDBootstrap.com
+          GirlPowerTalk  All Rights Reserved 
         </a>
       </div>
     </MDBFooter>

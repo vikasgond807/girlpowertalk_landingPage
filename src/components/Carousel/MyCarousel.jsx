@@ -1,17 +1,24 @@
 import Carousel from "react-bootstrap/Carousel";
 import "../../App.css";
+
+
+
+{/* TODO- Have to ADD images from assets  */ }
+
 function MyCarousel() {
   return (
-    <Carousel style={{ width: "80vw", height: "80vh", marginInline: "auto" }}>
+    <Carousel style={{ width: "100vw", height: "80vh", marginInline: "auto"}}>
+
+      
       <Carousel.Item>
         <img
           style={{ width: "80vw", height: "80vh" }}
           className="d-block w-100"
-          src="https://cdn.pixabay.com/photo/2022/11/06/23/39/climate-change-issue-7575216_960_720.jpg"
+          src='https://cdn.pixabay.com/photo/2022/10/24/14/00/women-7543526_960_720.jpg'
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3 style={{color:'red'}}>WeAreGirlPowerTalk</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
