@@ -1,0 +1,18 @@
+.ucard {
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+  height: 240px;
+  width: 300px;
+  overflow: hidden;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+.ucard:hover {
+  height: 350px;
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+}
