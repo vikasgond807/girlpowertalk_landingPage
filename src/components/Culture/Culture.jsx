@@ -1,49 +1,45 @@
 import React from "react";
-import "./culture.css";
+import "./culture.module.css";
 const Culture = () => {
   return (
-    <div
+    <div className="culture-container"
       style={{
         display: "flex",
         paddingInline: "100px",
         justifyContent: "space-evenly",
         flexWrap: "wrap",
+      
       }}
     >
       <div style={{ flexBasis: "600px" }}>
-        <h1 style={{ paddingTop: "20px" }}>Our Unique Culture</h1>
-        <p style={{ paddingTop: "20px" }}>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni
-          tenetur fugiat animi autem distinctio quas ab? Blanditiis ullam
-          voluptatum saepe fugiat est. Adipisci, quidem nemo saepe nulla maiores
-          explicabo dolore molestias voluptatum sunt, vero velit eveniet
-          incidunt odit iusto tempora, neque animi temporibus doloribus
-          perspiciatis voluptatem sequi aperiam maxime consequatur? Ducimus
-          optio ratione cumque tenetur asperiores delectus molestias eveniet
-          voluptates, nesciunt, eos et soluta est voluptatem natus, tempora
-          similique molestiae praesentium distinctio. Est optio debitis dolores
-          assumenda odit natus nihil?
+        <h2 className='culture__app-header' style={{ paddingTop: "40px" ,color:'red'}}>Our Unique Culture</h2>
+        <p className='culture__app-text' style={{ paddingTop: "5px", paddingBottom: '20px', marginTop: '20px', marginBottom: '20px', fontWeight: '500', fontSize: '20px' }}>
+          We believe that our careers are part of how we influence the world around us, so we strive to maintain a culture that allows each person to find purpose in their work. Our worth is determined not simply by our remuneration but also by the rewards we get from creating positive change for others. Our workplace is a happy one;
+           we encourage our team members to maximize their work-life 
+           balance and to see their colleagues as a kind of extended 
+           familial support system. We love coming to work at Girl Power 
+           Talk because it is our second home.
         </p>
       </div>
-      <div>
+      <div >
         <div style={{ display: "flex" }}>
-          <img
+          <img width='300px' height='280px'
             className="cultureImage"
-            src="https://girlpowertalk.com/wp-content/uploads/2022/06/Muskan.png"
+            src="https://girlpowertalk.com/wp-content/uploads/2022/07/rachita-receiving-award-1.png"
           />
-          <img
+          <img width='300px' height='280px'
             className="cultureImage"
-            src="https://girlpowertalk.com/wp-content/uploads/2022/06/Muskan.png"
+            src="https://girlpowertalk.com/wp-content/uploads/2022/07/girls-with-cup-cakes.png"
           />
         </div>
         <div style={{ display: "flex" }}>
-          <img
+          <img width='300px' height='280px' 
             className="cultureImage"
-            src="https://girlpowertalk.com/wp-content/uploads/2022/06/Muskan.png"
+            src="https://girlpowertalk.com/wp-content/uploads/2022/01/f1-corousel.jpg"
           />
-          <img
+          <img width='300px' height='280px' 
             className="cultureImage"
-            src="https://girlpowertalk.com/wp-content/uploads/2022/06/Muskan.png"
+            src="https://girlpowertalk.com/wp-content/uploads/2022/06/meet-up.png"
           />
         </div>
       </div>
@@ -52,3 +48,6 @@ const Culture = () => {
 };
 
 export default Culture;
+
+
+

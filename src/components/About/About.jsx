@@ -6,26 +6,21 @@ const About = () => {
   const abouts = [
     {
       title: "Women in Technology",
-      description: "Im a React Developer",
       ImgUrl:
         "https://girlpowertalk.com/wp-content/uploads/2022/02/Group-132-1-min.png",
     },
     {
       title: "Diversity & Inclusion",
-      description: "Im a React Developer",
       ImgUrl:
         "https://girlpowertalk.com/wp-content/uploads/2022/02/home-about-girl-power-talk-min.png",
     },
     {
       title: "Entrepreurial Culture",
-      description: "Im a React Developer",
-      ImgUrl: "https://girlpowertalk.com/wp-content/uploads/2022/06/Muskan.png",
+      ImgUrl: "https://girlpowertalk.com/wp-content/uploads/2022/07/nitya-gupta.png",
     },
     {
       title: "Generate Impact",
-      description: "Im a React Developer",
-      ImgUrl:
-        "https://cdn.pixabay.com/photo/2018/08/28/13/29/avatar-3637561_960_720.png",
+      ImgUrl:'https://girlpowertalk.com/wp-content/uploads/2022/06/PH.png'
     },
   ];
   return (
@@ -52,9 +47,7 @@ const About = () => {
             <h2 className="bold-text" style={{ marginTop: 20 }}>
               {about.title}
             </h2>
-            <p className="p-text" style={{ marginTop: 20 }}>
-              {about.description}
-            </p>
+            
           </motion.div>
         ))}
       </div>

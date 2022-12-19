@@ -96,7 +96,7 @@
         align-items: flex-end;
         flex-direction: column;
 
-        background-color: var(--secondary-white);
+        background-color:white;
         box-shadow: 0 0 20 rgba(255,255,255,0.65);
 
         svg{
@@ -133,7 +133,7 @@
             
             
                         &:hover {
-                            color: var(--primary-color);
+                            color:red;
                         }
                     }
                 }
