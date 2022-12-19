@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/vikasgond807/girlpowertalk_landingPage/static/css/main.0dd62577.css",
+    "main.js": "/vikasgond807/girlpowertalk_landingPage/static/js/main.5e275061.js",
+    "static/js/787.51d5789e.chunk.js": "/vikasgond807/girlpowertalk_landingPage/static/js/787.51d5789e.chunk.js",
+    "static/media/fa-solid-900.ttf": "/vikasgond807/girlpowertalk_landingPage/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/fa-brands-400.ttf": "/vikasgond807/girlpowertalk_landingPage/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
+    "static/media/fa-solid-900.woff2": "/vikasgond807/girlpowertalk_landingPage/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
+    "static/media/fa-brands-400.woff2": "/vikasgond807/girlpowertalk_landingPage/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
+    "static/media/fa-regular-400.ttf": "/vikasgond807/girlpowertalk_landingPage/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/fa-regular-400.woff2": "/vikasgond807/girlpowertalk_landingPage/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
+    "static/media/logo.png": "/vikasgond807/girlpowertalk_landingPage/static/media/logo.1fc1615d557aac6224e4.png",
+    "static/media/fa-v4compatibility.ttf": "/vikasgond807/girlpowertalk_landingPage/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
+    "static/media/fa-v4compatibility.woff2": "/vikasgond807/girlpowertalk_landingPage/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
+    "index.html": "/vikasgond807/girlpowertalk_landingPage/index.html",
+    "main.0dd62577.css.map": "/vikasgond807/girlpowertalk_landingPage/static/css/main.0dd62577.css.map",
+    "main.5e275061.js.map": "/vikasgond807/girlpowertalk_landingPage/static/js/main.5e275061.js.map",
+    "787.51d5789e.chunk.js.map": "/vikasgond807/girlpowertalk_landingPage/static/js/787.51d5789e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dd62577.css",
+    "static/js/main.5e275061.js"
+  ]
+}
