@@ -24,7 +24,7 @@ function MyCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          style={{ width: "80vw", height: "80vh" }}
+          style={{ width: "80vw", height: "80vh", objectFit: "contain" }}
           className="d-block w-100"
           src="https://girlpowertalk.com/wp-content/uploads/2022/06/Sheroes.png"
           alt="Second slide"
@@ -40,7 +40,7 @@ function MyCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          style={{ width: "80vw", height: "80vh" }}
+          style={{ width: "80vw", height: "80vh", objectFit: "contain" }}
           className="d-block w-100"
           src="https://girlpowertalk.com/wp-content/uploads/2022/01/f1-corousel.jpg"
           alt="Third slide"
